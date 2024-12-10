@@ -11,7 +11,7 @@ function Home() {
       <img
         src={homeImage}
         alt="Real Estate Blockchain"
-        className="w-full h-1/2 object-cover"
+        className="w-full h-1/3 object-cover"
       />
       {/* Overlay Text and Button */}
       <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
