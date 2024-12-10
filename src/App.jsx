@@ -6,6 +6,7 @@ import Marketplace from './pages/Marketplace';
 import Community from './pages/Community';
 import Wallet from './pages/Wallet';
 import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/community" element={<Community />} />
         <Route path="/wallet" element={<Wallet />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </Router>
   );

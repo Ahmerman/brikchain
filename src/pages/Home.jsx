@@ -20,8 +20,7 @@ function Home() {
         </h1>
         <button
           onClick={() => navigate('/login')}
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg"
-        >
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg">
           Join Us
         </button>
       </div>
