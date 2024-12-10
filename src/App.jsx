@@ -8,6 +8,8 @@ import Community from './pages/Community';
 import Wallet from './pages/Wallet';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import MyPage from './pages/MyPage';
+import Notifications from './pages/Notifications';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/wallet" element={<Wallet />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/community/my-posts" element={<MyPage />} />
+        <Route path="/community/notifications" element={<Notifications />} />
       </Routes>
       <Footer />
     </Router>

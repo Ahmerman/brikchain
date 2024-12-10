@@ -53,7 +53,7 @@ function Footer() {
               className="text-gray-400 hover:text-white"
               aria-label="Twitter"
             >
-              <i className="fab fa-twitter"></i>
+              <i className="fab fa-x-twitter"></i>
             </a>
             <a
               href="#"
