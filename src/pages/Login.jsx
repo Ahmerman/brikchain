@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import loginImage from '../assets/login-image.jpg'; // Replace with your image in the assets folder.
+import loginImage from '../assets/login-image.jpg'; 
+
 
 function Login() {
   const navigate = useNavigate();
@@ -39,7 +40,7 @@ function Login() {
             <input
               type="email"
               id="email"
-              placeholder="you@example.com"
+              placeholder="haris@gmail.com"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -63,8 +64,9 @@ function Login() {
           {/* Login Button */}
           <div className="flex items-center justify-center">
             <button
-              type="submit"
+              //type="submit"
               className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              onClick={() => navigate('/')}
             >
               Login
             </button>
